@@ -1,7 +1,73 @@
+/* imported font styles */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
+
+::root {
+  --darkCyan: #0e8784;
+  --darkGreyBlue: #333d4b;
+  --paleOrange: #fdd6ba;
+  --lightCream: #fefcf7;
+  --grey: #83888f;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.title-big {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 150px;
+  line-height: 72px;
+  color: var(--grey);
+}
+
+h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: var(--darkGreyBlue);
+}
+
+h2 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--darkGreyBlue);
+}
+
+h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: var(--darkGreyBlue);
+}
+
+h4 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--darkGreyBlue);
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+  color: var(--darkGreyBlue);
 }
 
 .App {
