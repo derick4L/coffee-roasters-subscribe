@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Responsive styling */
+@media (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    border: 2px solid red;
+  }
+}
