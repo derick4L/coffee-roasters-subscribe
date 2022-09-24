@@ -1,0 +1,94 @@
+nav {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+#coffeeroasters-logo {
+  width: 236px;
+  height: 26px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 18%;
+  align-items: center;
+}
+
+.nav-links li {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.92px;
+  text-transform: uppercase;
+}
+
+/* Responsive */
+
+/* Mobile */
+@media (min-width: 310px) and (max-width: 767px) {
+  nav {
+    border: 1px solid blue;
+    display: flex;
+  }
+
+  #coffeeroasters-logo {
+    width: 163px;
+    height: 18px;
+  }
+
+  #hamburger {
+    height: 16px;
+    width: 15px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    min-width: 283px;
+    height: 15px;
+    align-self: center;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 2560px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid yellow;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 383px;
+    height: 15px;
+    align-self: center;
+  }
+}
