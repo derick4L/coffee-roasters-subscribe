@@ -1,6 +1,6 @@
 #assets-files
 /coffeeroasters-subscription-site
-
+src/assets
 # dependencies
 /node_modules
 

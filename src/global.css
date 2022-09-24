@@ -1,7 +1,8 @@
 /* imported font styles */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
 
-::root {
+:root {
+  --lightCyan: #66d2cf;
   --darkCyan: #0e8784;
   --darkGreyBlue: #333d4b;
   --paleOrange: #fdd6ba;
@@ -15,8 +16,9 @@
   margin: 0;
 }
 
+/* Label & Body styles */
 .title-big {
-  font-family: "Fraunces", serif;
+  font-family: "Fraunces";
   font-weight: 900;
   font-style: normal;
   font-size: 150px;
@@ -61,7 +63,7 @@ h4 {
 }
 
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -69,6 +71,58 @@ body {
   opacity: 0.8;
   color: var(--darkGreyBlue);
 }
+
+/* Button styles */
+.button-main {
+  font-family: "Fraunces";
+  font-size: 18px;
+  width: 217px;
+  height: 56px;
+  border-radius: 6px;
+  background-color: var(--darkCyan);
+}
+
+.button-main:hover {
+  transition: 0.3s ease;
+  background-color: var(--lightCyan);
+}
+
+.button-disabled {
+  font-family: "Fraunces";
+  font-size: 18px;
+  width: 217px;
+  height: 56px;
+  border-radius: 6px;
+  background-color: var(--grey);
+}
+
+.big-selection {
+  height: 250px;
+  width: 228px;
+  background-color: var(--lightCream);
+}
+
+.big-selection:hover {
+  transition: 0.3s ease;
+  background-color: var(--paleOrange);
+}
+
+.big-selection:active {
+  transition: 0.3s ease;
+  background-color: var(--darkCyan);
+}
+
+/* Accordion Menu styles */
+.accordion {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--grey);
+}
+
+/* ///////// */
 
 .App {
   text-align: center;
