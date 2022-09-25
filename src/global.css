@@ -61,13 +61,8 @@ h4 {
 }
 
 body {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
-  line-height: 26px;
-  opacity: 0.8;
-  color: var(--darkGreyBlue);
 }
 
 /* Button styles */
@@ -78,6 +73,7 @@ body {
   height: 56px;
   border-radius: 6px;
   background-color: var(--darkCyan);
+  color: var(--lightCream);
 }
 
 .button-main:hover {
