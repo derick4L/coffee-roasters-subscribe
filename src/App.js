@@ -1,11 +1,22 @@
-import Navbar from "./components/Navigation";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import "./global.css";
+import Main from "./routes/main";
+import NotFound from "./routes/404";
+import AboutUs from "./routes/about";
+import Plan from "./routes/plan";
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>Coffee Subscription</h1> */}
-      <Navbar />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/plan" element={<Plan />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
