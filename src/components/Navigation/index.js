@@ -1,22 +1,31 @@
+import { NavLink } from "react-router-dom";
+
 import Logo from "../../assets/shared/desktop/logo.svg";
 import Hamburger from "../../assets/shared/mobile/icon-hamburger.svg";
 import "./styles.css";
 
 function Navbar() {
-  const toggle = () => {};
-
   return (
-    <>
-      <nav className="nav">
-        <img src={Logo} alt="coffeeroasters logo" id="coffeeroasters-logo" />
-        <img src={Hamburger} alt="hamburger" id="hamburger" type="checkbox" />
+    <nav>
+      <img src={Logo} alt="coffeeroasters logo" id="coffeeroasters-logo" />
+      <div className="nav">
+        <label for="hamburger-input">
+          <img src={Hamburger} alt="hamburger" id="hamburger" />
+        </label>
+        <input type="checkbox" id="hamburger-input" />
         <ul className="nav-links">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Create Your Plan</li>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about-us">About Us </NavLink>
+          </li>
+          <li>
+            <NavLink to="/plan">Create Your Plan</NavLink>
+          </li>
         </ul>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 }
 

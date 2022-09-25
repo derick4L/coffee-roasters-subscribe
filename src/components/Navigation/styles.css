@@ -10,11 +10,14 @@ nav {
   height: 26px;
 }
 
+#hamburger-input {
+  display: none;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  width: 18%;
   align-items: center;
 }
 
@@ -24,7 +27,6 @@ nav {
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.92px;
-  text-transform: uppercase;
 }
 
 /* Responsive */
@@ -34,6 +36,12 @@ nav {
   nav {
     border: 1px solid blue;
     display: flex;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   #coffeeroasters-logo {
@@ -46,8 +54,34 @@ nav {
     width: 15px;
   }
 
+  #hamburger-input:checked ~ .nav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+    height: 23%;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-family: "Fraunces";
+    background: linear-gradient(
+      180deg,
+      rgba(254, 252, 247, 0.504981) 0%,
+      #fefcf7 55.94%
+    );
+  }
+
   .nav-links {
     display: none;
+  }
+
+  .nav-links li {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
@@ -57,6 +91,11 @@ nav {
     display: flex;
     justify-content: space-between;
     border: 1px solid green;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
   }
 
   #hamburger {
@@ -70,6 +109,10 @@ nav {
     height: 15px;
     align-self: center;
   }
+
+  .nav-links li {
+    text-transform: uppercase;
+  }
 }
 
 /* Desktop */
@@ -78,6 +121,11 @@ nav {
     display: flex;
     justify-content: space-between;
     border: 1px solid yellow;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
   }
 
   #hamburger {
@@ -90,5 +138,9 @@ nav {
     width: 383px;
     height: 15px;
     align-self: center;
+  }
+
+  .nav-links li {
+    text-transform: uppercase;
   }
 }
