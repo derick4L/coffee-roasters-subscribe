@@ -9,7 +9,7 @@ function Navbar() {
     <nav>
       <img src={Logo} alt="coffeeroasters logo" id="coffeeroasters-logo" />
       <div className="nav">
-        <label for="hamburger-input">
+        <label htmlFor="hamburger-input">
           <img src={Hamburger} alt="hamburger" id="hamburger" />
         </label>
         <input type="checkbox" id="hamburger-input" />

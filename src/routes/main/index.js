@@ -1,11 +1,14 @@
+import HeroCard from "../../components/Hero Card";
 import Layout from "../../layout";
+
+import "./styles.css";
 
 function Main() {
   return (
     <Layout>
-      <main>
-        <h1>Coffee Roasters Home</h1>
-      </main>
+      <div className="home-container">
+        <HeroCard />
+      </div>
     </Layout>
   );
 }
