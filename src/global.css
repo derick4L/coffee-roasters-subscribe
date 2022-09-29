@@ -12,6 +12,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  --webkit-font-smoothing: antialiased;
 }
 
 /* Label & Body styles */
@@ -74,6 +75,7 @@ body {
   border-radius: 6px;
   background-color: var(--darkCyan);
   color: var(--lightCream);
+  border: none;
 }
 
 .button-main:hover {
@@ -88,6 +90,7 @@ body {
   height: 56px;
   border-radius: 6px;
   background-color: var(--grey);
+  border: none;
 }
 
 .big-selection {
