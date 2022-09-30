@@ -1,0 +1,80 @@
+#why-us-styled-background {
+  background: var(--darkerGreyBlue);
+  width: 327px;
+  height: 902px;
+  border: none;
+  border-radius: 10px;
+  margin: 120px 0 0 0;
+}
+
+.why-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 64px 0;
+}
+
+.why-us-content h4 {
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--lightCream);
+  margin: 64px 0 0 0;
+}
+
+.why-us-content p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: var(--lightCream);
+  margin: 24px 0 0 0;
+  width: 279px;
+  opacity: 0.8;
+}
+
+.why-us-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 24px 0;
+}
+
+.why-us-card-content {
+  width: 279px;
+  background: var(--darkCyan);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-us-card-content img {
+  height: 72px;
+  width: 72px;
+  margin: 72px 0 56px 0;
+}
+
+#truck {
+  height: 50px;
+  width: 72px;
+}
+
+.why-us-card-content h4 {
+  color: var(--lightCream);
+}
+
+.why-us-card-content p {
+  color: var(--lightCream);
+  width: 212px;
+  text-align: center;
+  margin: 24px 0 51px 0;
+  line-height: 25px;
+  font-weight: 400;
+}

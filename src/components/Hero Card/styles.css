@@ -1,5 +1,4 @@
 .hero-card {
-  background-image: url("../../assets/home/mobile/image-hero-coffeepress.jpg");
   width: 327px;
   height: 500px;
   border-radius: 10px;
@@ -34,4 +33,93 @@
 
 .hero-card-button {
   padding: 39px 0 0 0;
+}
+
+/* Responsive */
+
+/* Mobile */
+@media (min-width: 310px) and (max-width: 767px) {
+  .hero-card {
+    background-image: url("../../assets/home/mobile/image-hero-coffeepress.jpg");
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-card {
+    background-image: url("../../assets/home/tablet/image-hero-coffeepress.jpg");
+    height: 500px;
+    width: 689px;
+  }
+
+  .hero-card-title {
+    width: 100%;
+    padding: 0 0 0 58px;
+  }
+
+  .hero-card-title h2 {
+    text-align: start;
+    font-size: 48px;
+    width: 329px;
+  }
+
+  .hero-card-description {
+    width: 100%;
+    padding: 0 0 0 58px;
+    margin: 24px 0 0 0;
+  }
+
+  .hero-card-description p {
+    width: 398px;
+    text-align: start;
+  }
+
+  .hero-card-button {
+    width: 100%;
+    text-align: start;
+    padding: 0 0 0 58px;
+    margin: 40px 0 0 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 2560px) {
+  /*  */
+  .hero-card {
+    background-image: url("../../assets/home/desktop/image-hero-coffeepress.jpg");
+    width: 1280px;
+    height: 600px;
+  }
+
+  .hero-card-title {
+    padding: 0 0 0 86px;
+    width: 100%;
+  }
+
+  .hero-card-title h2 {
+    width: 493px;
+    text-align: start;
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  .hero-card-description {
+    width: 100%;
+    padding: 0 0 0 86px;
+    margin: 24px 0 0 0;
+  }
+
+  .hero-card-description p {
+    width: 444px;
+    text-align: start;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-card-button {
+    width: 100%;
+    text-align: start;
+    padding: 0 0 0 86px;
+    margin: 56px 0 0 0;
+  }
 }
