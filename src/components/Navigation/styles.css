@@ -1,6 +1,5 @@
 nav {
   display: flex;
-  /* border: 1px solid red; */
   justify-content: space-between;
   padding: 20px 15px;
 }
@@ -90,7 +89,6 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid green; */
   }
 
   .nav {
@@ -113,6 +111,10 @@ nav {
   .nav-links li {
     text-transform: uppercase;
   }
+
+  .nav-links a {
+    text-decoration: none;
+  }
 }
 
 /* Desktop */
@@ -120,7 +122,6 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid yellow; */
   }
 
   .nav {
@@ -142,5 +143,9 @@ nav {
 
   .nav-links li {
     text-transform: uppercase;
+  }
+
+  .nav-links a {
+    text-decoration: none;
   }
 }

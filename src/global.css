@@ -80,6 +80,7 @@ body {
 }
 
 .button-main:hover {
+  cursor: pointer;
   transition: 0.3s ease;
   background-color: var(--lightCyan);
 }
@@ -101,6 +102,7 @@ body {
 }
 
 .big-selection:hover {
+  cursor: pointer;
   transition: 0.3s ease;
   background-color: var(--paleOrange);
 }
@@ -125,10 +127,3 @@ body {
 .App {
   text-align: center;
 }
-
-/* Responsive styling */
-/* @media (min-width: 320px) and (max-width: 767px) {
-  h1 {
-    border: 2px solid red;
-  }
-} */
