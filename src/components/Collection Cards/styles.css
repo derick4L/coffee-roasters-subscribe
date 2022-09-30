@@ -3,9 +3,10 @@
   background-image: linear-gradient(var(--grey) 0%, var(--lightCream) 100%);
   background-clip: text;
   color: transparent;
+  opacity: 0.7;
 }
 .collection-title p {
-  font-family: "Fraunces";
+  font-family: "Fraunces", serif;
   font-size: 40px;
   line-height: 72px;
 }
@@ -29,4 +30,77 @@
   font-size: 15px;
   text-align: center;
   line-height: 25px;
+}
+
+/* Responsive Styling */
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .collection-title p {
+    font-size: 110px;
+    line-height: 108px;
+    letter-spacing: 2.3px;
+  }
+
+  .collection-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 32px 0;
+    transform: translateY(-54px);
+  }
+
+  .collection-card-image img {
+    height: 193px;
+    width: 255px;
+  }
+
+  .collection-card-content {
+    padding: 0 0 0 25px;
+    margin: 0;
+    height: 106px;
+    justify-content: space-between;
+    transform: translateY(-23px);
+  }
+
+  .collection-card-content h4 {
+    width: 100%;
+    text-align: start;
+  }
+
+  .collection-card-content p {
+    text-align: start;
+    padding: 24px 0 0 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 2560px) {
+  .collection-title p {
+    font-size: 173px;
+    line-height: 148px;
+  }
+
+  .collection-card {
+    transform: translateY(-64px);
+  }
+
+  .collection-card-image img {
+    height: 193px;
+    width: 256px;
+  }
+
+  .collection-cards-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .collection-card-content {
+    padding: 71.55px 0 0 0;
+  }
+
+  .collection-card-content p {
+    width: 255px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
