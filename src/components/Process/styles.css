@@ -7,7 +7,7 @@
 }
 
 .the-process-title p {
-  font-family: "Fraunces";
+  font-family: "Fraunces", serif;
   font-size: 24px;
   color: var(--grey);
   line-height: 32px;

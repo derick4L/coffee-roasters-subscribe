@@ -28,6 +28,10 @@ nav {
   letter-spacing: 0.92px;
 }
 
+.nav-links a {
+  color: var(--grey);
+}
+
 /* Responsive */
 
 /* Mobile */
@@ -63,7 +67,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 1;
-    font-family: "Fraunces";
+    font-family: "Fraunces", serif;
     background: linear-gradient(
       180deg,
       rgba(254, 252, 247, 0.504981) 0%,
@@ -76,7 +80,7 @@ nav {
   }
 
   .nav-links li {
-    font-family: "Fraunces";
+    font-family: "Fraunces", serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -89,6 +93,7 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
+    padding: 40px 40px 0 39px;
   }
 
   .nav {
@@ -122,6 +127,7 @@ nav {
   nav {
     display: flex;
     justify-content: space-between;
+    padding: 50px 80px 0 80.1px;
   }
 
   .nav {
