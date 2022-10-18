@@ -1,3 +1,10 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 120px 0;
+}
+
 .hero-card {
   width: 327px;
   height: 500px;
@@ -35,7 +42,7 @@
   padding: 39px 0 0 0;
 }
 
-/* Responsive */
+/* Responsive Styling*/
 
 /* Mobile */
 @media (min-width: 310px) and (max-width: 767px) {

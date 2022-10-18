@@ -54,7 +54,6 @@
   }
 
   .the-process-title {
-    margin: 0 0 50px 40px;
     font-size: 24px;
     line-height: 32px;
     text-align: left;
@@ -104,12 +103,16 @@
 
 /* Desktop */
 @media (min-width: 1024px) and (max-width: 2560px) {
+  .process-container {
+    display: grid;
+    justify-content: center;
+  }
   .the-process {
     margin: 280px 0 120px 0;
+    width: 1145px;
   }
 
   .the-process-title {
-    margin: 0 0 50px 145px;
     font-size: 24px;
     line-height: 32px;
     text-align: left;
@@ -117,7 +120,8 @@
 
   .the-process-cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 1088px;
   }
 
   .the-process-card {
@@ -152,7 +156,6 @@
   }
 
   .the-process-card-button {
-    margin: 44px 0 0 145px;
     text-align: left;
   }
 }
