@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-import Logo from "../../assets/shared/desktop/logo.svg";
-import Hamburger from "../../assets/shared/mobile/icon-hamburger.svg";
+import Logo from "../../../assets/shared/desktop/logo.svg";
+import Hamburger from "../../../assets/shared/mobile/icon-hamburger.svg";
 import "./styles.css";
 
 function Navbar() {

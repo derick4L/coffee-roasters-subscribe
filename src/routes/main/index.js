@@ -1,8 +1,8 @@
-import CollectionCards from "../../components/Collection Cards";
-import Footer from "../../components/Footer";
-import HeroCard from "../../components/Hero Card";
-import TheProcess from "../../components/Process";
-import WhyUs from "../../components/Why Us";
+import CollectionCards from "../../components/Home/Collection Cards";
+import Footer from "../../components/Global/Footer";
+import HeroCard from "../../components/Home/Hero Card";
+import TheProcess from "../../components/Home/Process";
+import WhyUs from "../../components/Home/Why Us";
 import Layout from "../../layout";
 
 import "./styles.css";

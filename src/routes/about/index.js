@@ -1,9 +1,10 @@
+import AboutHeroCard from "../../components/About/About Hero Card";
 import Layout from "../../layout";
 
 function AboutUs() {
   return (
     <Layout>
-      <h1>About Us</h1>
+      <AboutHeroCard />
     </Layout>
   );
 }

@@ -47,14 +47,14 @@
 /* Mobile */
 @media (min-width: 310px) and (max-width: 767px) {
   .hero-card {
-    background-image: url("../../assets/home/mobile/image-hero-coffeepress.jpg");
+    background-image: url("../../../assets/home/mobile/image-hero-coffeepress.jpg");
   }
 }
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
   .hero-card {
-    background-image: url("../../assets/home/tablet/image-hero-coffeepress.jpg");
+    background-image: url("../../../assets/home/tablet/image-hero-coffeepress.jpg");
     height: 500px;
     width: 689px;
   }
@@ -93,7 +93,7 @@
 @media (min-width: 1024px) and (max-width: 2560px) {
   /*  */
   .hero-card {
-    background-image: url("../../assets/home/desktop/image-hero-coffeepress.jpg");
+    background-image: url("../../../assets/home/desktop/image-hero-coffeepress.jpg");
     width: 1280px;
     height: 600px;
   }
