@@ -13,7 +13,7 @@ function CollectionCards() {
           <div className="collection-card-image">
             <img
               //because of webpack, i have to render the image like this
-              src={require("../../assets/home/desktop/image-gran-espresso.png")}
+              src={require("../../../assets/home/desktop/image-gran-espresso.png")}
               alt="Gran Expresso"
               id="gran-expresso"
             />
@@ -29,7 +29,7 @@ function CollectionCards() {
         <div className="collection-card">
           <div className="collection-card-image">
             <img
-              src={require("../../assets/home/desktop/image-planalto.png")}
+              src={require("../../../assets/home/desktop/image-planalto.png")}
               alt="Planalto"
               id="planalto"
             />
@@ -45,7 +45,7 @@ function CollectionCards() {
         <div className="collection-card">
           <div className="collection-card-image">
             <img
-              src={require("../../assets/home/desktop/image-piccollo.png")}
+              src={require("../../../assets/home/desktop/image-piccollo.png")}
               alt="Piccollo"
               id="piccollo"
             />
@@ -61,7 +61,7 @@ function CollectionCards() {
         <div className="collection-card">
           <div className="collection-card-image">
             <img
-              src={require("../../assets/home/desktop/image-danche.png")}
+              src={require("../../../assets/home/desktop/image-danche.png")}
               alt="Danche"
               id="Danche"
             />

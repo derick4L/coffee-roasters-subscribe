@@ -1,6 +1,6 @@
-import CoffeeBean from "../../assets/home/desktop/icon-coffee-bean.svg";
-import Gift from "../../assets/home/desktop/icon-gift.svg";
-import Truck from "../../assets/home/desktop/icon-truck.svg";
+import CoffeeBean from "../../../assets/home/desktop/icon-coffee-bean.svg";
+import Gift from "../../../assets/home/desktop/icon-gift.svg";
+import Truck from "../../../assets/home/desktop/icon-truck.svg";
 import "./styles.css";
 
 function WhyUs() {

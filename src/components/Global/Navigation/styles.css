@@ -32,12 +32,11 @@ nav {
   color: var(--grey);
 }
 
-/* Responsive */
+/* Responsive Styling*/
 
 /* Mobile */
 @media (min-width: 310px) and (max-width: 767px) {
   nav {
-    /* border: 1px solid blue; */
     display: flex;
   }
 
