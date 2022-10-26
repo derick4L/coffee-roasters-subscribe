@@ -1,0 +1,137 @@
+.about-quality-text {
+  background: var(--darkerGreyBlue);
+  border-radius: 10px;
+}
+
+.about-quality-description {
+  color: var(--lightCream);
+  opacity: 0.8;
+}
+
+/* Mobile */
+@media (min-width: 310px) and (max-width: 767px) {
+  .about-quality-image {
+    background: url(../../../assets/about/mobile/image-quality.jpg);
+    background-size: cover;
+    width: 279px;
+    height: 156px;
+    border-radius: 8px;
+    transform: translateY(50%);
+  }
+  .about-quality-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 50px 0 110px 0;
+  }
+
+  .about-quality-title {
+    font-size: 28px;
+    line-height: 28px;
+    color: var(--lightCream);
+    padding: 60px 0 0 0;
+  }
+
+  .about-quality-text {
+    width: 327px;
+    height: 509px;
+    color: var(--lightCream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-quality-description {
+    margin: 25px 0 0 0;
+    height: 226px;
+    width: 279px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-quality-image {
+    background: url(../../../assets/about/mobile/image-quality.jpg);
+    background-size: cover;
+    width: 573px;
+    height: 320px;
+    border-radius: 8px;
+    transform: translateY(50%);
+  }
+
+  .about-quality-text {
+    width: 688px;
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 145px 0 0 0;
+  }
+
+  .about-quality-title {
+    margin: 0 0 24px 0;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .about-quality-description {
+    height: 125px;
+    width: 540px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .about-quality-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 0 110px 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 2560px) {
+  .about-quality-image {
+    background: url(../../../assets/about/desktop/image-quality.jpg);
+    background-size: cover;
+    width: 445px;
+    height: 474px;
+    border-radius: 8px;
+    transform: translate(73%, -18%);
+    position: absolute;
+  }
+
+  .about-quality-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 110px 0;
+  }
+
+  .about-quality-text {
+    padding: 88px 0 0 85px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 1280px;
+    height: 474px;
+  }
+
+  .about-quality-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .about-quality-description {
+    margin: 32px 0 0 0;
+    height: 130px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
