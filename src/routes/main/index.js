@@ -22,9 +22,6 @@ function Main() {
       <div className="process-container">
         <TheProcess />
       </div>
-      <div className="footer-container">
-        <Footer />
-      </div>
     </Layout>
   );
 }
